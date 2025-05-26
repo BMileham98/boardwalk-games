@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Macondo&display=swap');
 
 /*CSS Variables*/
@@ -74,6 +75,8 @@ h2 {
 #contact .social-links i {
     color:var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
     transition: 0.3s ease-in-out;
 }
 
@@ -125,16 +128,6 @@ h2 {
     font-family: var(--secondary-font);
 }
 
- /* grid CSS test 
-
-.container, .row {
-    border:2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 @media screen and (min-width:768px) {
     #services .card-body {
